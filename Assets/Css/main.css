@@ -1,0 +1,140 @@
+body{
+    overflow-x: hidden;
+}
+
+.nvbcg{
+    background-color: #690500;
+}
+
+
+.lgnv{
+    height: 40px;
+}
+
+@font-face {
+    font-family: letralogo;
+    src: url(../fonts/Australia-Custom-Italic.ttf);
+}
+
+.ftzlg{
+    font-size: 25px;
+    font-family: letralogo;
+}
+
+
+.cajanav{
+    margin-inline-start: 1100px;
+}
+
+.bgc{
+    background-color: #690500;
+    height: 530px;
+}
+
+.fom2{
+    margin-top: 50px;
+
+}
+
+.bon{
+    height: 60px;
+}
+
+.logoemp{
+    transform: translate(130px, 50px);
+    height: 400px;
+    width: 390px;
+}
+
+.dcp{
+    background-color: #f49817;
+    margin-top: 70px;
+    margin-left: 120px;
+    font-size: 22px;
+    padding: 20px;
+}
+
+footer{
+    background-color: #690500 ;
+    margin-top: 60px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista1{
+    list-style: none;
+    margin-left: 40px;
+}
+
+.lista2{
+    list-style: none;
+    margin-left: 220px;
+}
+
+.lista3{
+    list-style: none;
+    margin-left: 200px;
+}
+
+.lista4{
+    list-style: none;
+}
+
+.imgfot{ 
+    height: 100px;
+}
+
+.txtfot{
+    font-family: letralogo;
+    font-size: 25px;
+}
+
+@media (max-width: 778px){
+    .rspv{
+        display: none;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lista1{
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 992px){
+    .bgc{
+        width: 460px;
+    }
+
+    .logoemp{
+        width:220px;
+        height:220px;
+    }
+
+    .lista2{
+        margin-left: 40px;
+    }
+
+    .lista3{
+        margin-left: 60px;
+    }
+
+    .imgfot{
+        display: none;
+    }
+
+    .ftzlg{
+        display: none;
+    }
+
+
+
+}

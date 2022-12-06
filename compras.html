@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>compras</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Assets/Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/Css/style.css">
+    <link rel="stylesheet" href="Assets/Css/main.css">
+</head>
+<body class="body">
+    <nav class="navbar navbar-expand-lg bgcolor p-3 sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Index.html">
+            <img src="Assets/img/Logos/LogoAmarillo.png" width="50" height="60" class="d-inline-block align-text-bottom">
+            <span class="text-white fw-bold titulo">Truments Music </span>
+            </a>
+        </div>
+    <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-warning px-4 fw-semibold" aria-current="page" href="Index.html"><i class="fa-solid fa-music pe-2"></i>Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="btn bg-transparent text-warning fw-semibold dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Registrarse/Iniciar Sesión
+                            </button>
+                            <ul class="dropdown-menu bgcolor">
+                            <li><a class="nav-link text-warning px-4 fw-semibold" href="Registro.html"><i class="fa-solid fa-headphones pe-2"></i>Registrarse</a></li>
+                            <li><a class="dropdown-item text-warning px-4 fw-semibold" href="login.html"><i class="fa-solid fa-headphones pe-2"></i>Iniciar Sesión</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item text-center align-text-bottom px-4 fw-semibold">
+                        <a href="compras.html"><i class="fa-solid fa-cart-shopping text-warning align-text-bottom"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="my-3 container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="card d-flex flex-column align-items-center justify-content-center" style="width: 100%;">
+                    <img src="Assets/img/Instrumentos/Guitarra.png" class="card-img-top w-50" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title d-flex justify-content-center fw-bold">Guitarra</h5>
+                        <p class="card-text">La guitarra es un instrumento musical de cuerda pulsada, compuesto de una caja de madera, un mástil sobre el que va adosado el diapasón o trastero, generalmente con un agujero acústico en el centro de la tapa (boca), y seis cuerdas. Sobre el diapasón van incrustados los trastes, que permiten las diferentes notas.</p>
+                        <h5 class="d-flex justify-content-center fw-bold">$$$$$</h5>
+                    </div>
+                    </div>
+            </div>
+            <div class="col-12 col-md-6 card bgcolor">
+                <h4 class="mt-3 d-flex justify-content-center text-white">Información de envío</h4>
+                <form>
+                    <div class="mb-3 d-flex">
+                        <input type="text" class="form-control" id="examplenombre" placeholder="Nombre" aria-describedby="emailHelp">
+                        <label class="me-3 form-label"></label>
+                        <input type="text" class="form-control" id="exampleApellido" placeholder="Apellido">
+                    </div>
+                    <div class="mb-3 d-flex">
+                        <input type="number" class="form-control" id="exampleID" placeholder="Numero de documento   ">
+                        <label for="exampleAddress" class="me-3 form-label"></label>
+                        <input type="text" class="form-control" id="exampleAddress" placeholder="Direccion">
+                    </div>
+                    <div class="mb-3 d-flex">
+                        <select select class="me-3 form-select" aria-label="Default select example">
+                            <option selected disabled>País</option>
+                            <option option value="1">Colombia</option>
+                            <option value="2">Venezuela</option>
+                            <option value="3">Ecuador</option>
+                            <option value="4">Perú</option>
+                            <option value="5">Bolivia</option>
+                        </select>
+                        <select class="form-select" aria-label="Default select example ">
+                            <option selected disabled>Departamento</option>
+                            <option value="1">Bogota D.C.</option>
+                            <option value="2">Cundinamarca</option>
+                            <option value="3">Boyaca</option>
+                            <option value="4">Antioquia</option>
+                            <option value="5">Atlantico</option>
+                        </select> 
+                    </div> 
+                    <div class="mb-3 d-flex">
+                        <input type="text" class="me-3 form-control" id="exampleCity" placeholder="Ciudad">
+                        <label for="exampleCp" class="form-label"></label>
+                        <input type="number" class="form-control" id="exampleCp" placeholder="Codigo postal">
+                        
+                    </div>
+                    <div class="mb-3">
+                        <input type="number" class="form-control" id="exampleTelefono" placeholder="Telefono">
+                    </div>
+                    <h4 class="d-flex justify-content-center text-white">Metodos de pagos</h4>
+                    <div class="my-2 me-2 d-flex justify-content-center text-white">
+                        Aceptamos<img src="Assets/img/mtd.jpg" class="ms-3">
+                    </div>
+                    <select class="mb-3 form-select" aria-label="Default select example ">
+                        <option selected disabled>Seleccione metodo de pago</option>
+                        <option value="1">Maestro</option>
+                        <option value="2">Visa</option>
+                        <option value="3">Master Card</option>
+                        <option value="4">American express</option>
+                    </select> 
+                    <div class="mb-3 d-flex">
+                        <input type="number" class="me-3 form-control" id="exampleIdnumber" placeholder="Numero de tarjeta" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" id="exampleName" placeholder="Nombre de titular">
+                    </div>
+                    <div class="mb-3 d-flex">
+                        <input type="text" class="me-3 form-control" id="exampleDateb" placeholder="Fecha de expedicion">
+                        <input type="text" class="form-control" id="exampleDateend" placeholder="Fecha de expiracion">
+                    </div>
+                        <input type="number" class="mb-3 form-control" id="exampleCodesecurity" placeholder="codigo de seguridad">
+                    <div class="mb-3 d-flex justify-content-center">
+                        <button type="button" class="btn btn-danger"onclick="datos()">Comprar</button>
+                    </div>
+                        
+                    </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer">
+        <div>
+            <ul class="lista1">
+                <li><a class="text-white" href="#">Politicas y privacidades</a></li>
+                <li><a class="text-white" href="#">Terminos y condiciones</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="lista2 text-white">
+                <li class="fw-bold text-center">Contactos</li>
+                <li>+57 310 748 6450</li>
+                <li>+57 313 359 3021</li>
+                <li>+57 322 229 6282</li>
+            </ul>
+        </div>
+        <div>
+            <ul class="lista3 text-white">
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+        </div>
+        <div class="d-flex justify-content-center align-items-center text-white">
+            <img class="imgfot" src="Assets/img/Logos/LogoAmarillo.png" alt="">
+            <span class="ftzlg">Truments music</span>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+<script src="Assets/Js/bootstrap.bundle.min.js"></script>
+<script src="Assets/Js/compras.js"></script>
+</html>
+
+
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg nvbcg p-3 ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Index.html">
+                <img src="Assets/img/Logos/LogoAmarillo.png" width="50" height="60"
+                    class="d-inline-block align-text-bottom">
+                <span class="text-white fw-bold ftzlg">Truments Music</span>
+            </a>
+        </div>
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-warning px-4 fw-semibold" aria-current="page" href="Index.html"><i class="fa-solid fa-music pe-2"></i>Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning px-4 fw-semibold" href="Registro.html"><i class="fa-solid fa-headphones pe-2"></i>Registrarse</a>
+                    </li>
+                    <li class="nav-item text-center align-text-bottom px-4 fw-semibold">
+                        <a href="compras.html"><i class="fa-solid fa-cart-shopping text-warning align-text-bottom"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6 ">
+                <form class="bgc rounded-4 d-flex flex-column justify-content-center align-items-center mt-5">
+                    <h2 class="text-white">Iniciar Sesión</h2>
+                    <div class="form-floating mt-3 w-50 campo3">
+                        <input type="email" class="form-control" id="correousuario" placeholder="name@example.com">
+                        <label for="floatingInput">Correo electronico</label>
+                    </div>
+                    <div class="form-floating mt-3 mb-3 w-50 campo5">
+                        <input type="password" class="form-control" id="contraseñausuario" placeholder="Password">
+                        <label for="floatingPassword">Password</label>   
+                    <div>
+                        <button type="button" class="btn btn-danger mt-3 w-100 bon" onclick="datos()">Enviar</button>
+                    </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-6 rspv">
+                <div>
+                    <img class="logoemp" src="Assets/img/Logos/LogoAmarillo.png">
+                    <h2 class="dcp text-white rounded-4 border border-dark border-5"> En Truments music te brindamos la posibilidad de
+                        llevarte
+                        los mejores instrumentos a los mejores precios</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+      <div class="container footer">
+      <div>
+          <ul class="lista1">
+              <li><a class="text-white" href="#">Politicas y privacidades</a></li>
+              <li><a class="text-white" href="#">Terminos y condiciones</a></li>
+          </ul>
+      </div>
+      <div>
+          <ul class="lista2 text-white">
+              <li class="fw-bold text-center">Contactos</li>
+              <li>+57 310 748 6450</li>
+              <li>+57 313 359 3021</li>
+              <li>+57 322 229 6282</li>
+          </ul>
+      </div>
+      <div>
+          <ul class="lista3 text-white">
+              <li><i class="fa-brands fa-facebook"></i></li>
+              <li><i class="fa-brands fa-twitter"></i></li>
+              <li><i class="fa-brands fa-instagram"></i></li>
+          </ul>
+      </div>
+      <div class="d-flex justify-content-center align-items-center text-white">
+          <img class="imgfot" src="Assets/img/Logos/LogoAmarillo.png" alt="">
+          <span class="ftzlg">Truments music</span>
+          </div>
+      </div>
+  </footer>
+
+    <script src="Assets/Js/bootstrap.bundle.min.js"></script>
+    <script src="Assets/Js/main.js"></script>
+</body>
+
+</html>
